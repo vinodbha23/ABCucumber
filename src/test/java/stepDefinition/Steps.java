@@ -35,8 +35,7 @@ public class Steps {
 		//utils.OpenGooleApplication();
 	}
 	
-	
-	
+
 	@Given("^Open the Browser and launch the application and enter details1$")
 	public void openAppAndEnterDetails(DataTable dt)  {
 		Map<String, String> myMap = dt.asMap(String.class, String.class);
@@ -46,6 +45,7 @@ public class Steps {
 			System.out.println(entry.getKey() + " ===" + entry.getValue());
 		}
 	}
+
 	
 	@Given("^Open the Browser and launch the application and enter details2$")
 	public void openAppAndEnterDetails1(DataTable dt)  {
