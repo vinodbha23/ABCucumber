@@ -92,7 +92,7 @@ public class Steps {
 	
 	@Then("^Verify the credential$")
 	public void verify_the_credential() {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete actions //user1 changed comments
 		System.out.println("Step for :- Reset the credential");
 		Assert.assertTrue("verification of Credential ", false);
 		
