@@ -50,7 +50,7 @@ public class Steps {
 	@Given("^Open the Browser and launch the application and enter details2$")
 	public void openAppAndEnterDetails1(DataTable dt)  {
 		List<Map<String, String>> lst = dt.asMaps(String.class, String.class);
-		
+		System.out.println("This is exmaple of asMaps");
 			for(int i=0; i<=lst.size()-1; i++) {
 				Map<String, String> myMap = lst.get(i) ;
 				System.out.println("-------------" + i);
